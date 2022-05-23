@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# DSMOVIE
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Marycorreia12/assets/blob/main/LICENSE)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
 
-In the project directory, you can run:
+DSMOVIE é uma aplicação full stack web e mobile construída durante a **Semana DevSuperior**, evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
-### `npm start`
+A aplicação consiste em um catalogo de listagens de filmes, onde cada filme tem uma avaliação, e essa avaliação é dada pelo usuário ao clicar no botão avaliar. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Layout web
+![Web 1](https://github.com/Marycorreia12/assets/blob/main/Listing.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Web 2](https://github.com/Marycorreia12/assets/blob/main/Form.png)
 
-### `npm test`
+# Tecnologias utilizadas
+## Back end
+- Java
+- Spring Boot
+- JPA / Hibernate
+- Maven
+## Front end
+- HTML / CSS / JS 
+- ReactJS
+## Implantação em produção
+- Back end: Heroku
+- Front end web: Netlify
+- Banco de dados: Postgresql
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Como executar o projeto
 
-### `npm run build`
+## Back end
+Pré-requisitos: Java 11
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# clonar repositório
+git clone https://github.com/Marycorreia12/DSMovie
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# entrar na pasta do projeto back end
+cd backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# executar o projeto
+./mvnw spring-boot:run
+```
 
-### `npm run eject`
+## Front end web
+Pré-requisitos: npm / yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# clonar repositório
+git clone https://github.com/Marycorreia12/DSMovie
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# entrar na pasta do projeto front end web
+cd front-web
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# instalar dependências
+yarn install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# executar o projeto
+yarn start
+```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
